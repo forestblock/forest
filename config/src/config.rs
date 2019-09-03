@@ -34,9 +34,9 @@ use crate::util::LoggingConfig;
 
 /// The default file name to use when trying to derive
 /// the node config file location
-pub const SERVER_CONFIG_FILE_NAME: &'static str = "grin-server.toml";
-const SERVER_LOG_FILE_NAME: &'static str = "grin-server.log";
-const GRIN_HOME: &'static str = ".grin";
+pub const SERVER_CONFIG_FILE_NAME: &'static str = "forest-server.toml";
+const SERVER_LOG_FILE_NAME: &'static str = "forest-server.log";
+const GRIN_HOME: &'static str = ".forest";
 const GRIN_CHAIN_DIR: &'static str = "chain_data";
 /// Node API secret
 pub const API_SECRET_FILE_NAME: &'static str = ".api_secret";
